@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>端午作业</title>
+    <style type="text/css">
+        *{
+            margin:0;
+            padding:0;
+            font-weight:500;
+        }
+        a{
+            text-decoration:none;
+        }
+        li{
+            list-style-type:none;
+        }
+		a{
+			color:black;
+		}
+		a:hover{color:rgb(245,56,56);}
+		body{
+			background-color:rgb(255,255,255);
+			font-weight:lighter;
+		}
+		#shoucang{
+			float:left;
+			position:relative;
+			left:120px;
+			width:500px;
+			top:2px;
+			color:black;
+		}
+		#top{
+			height:30px;
+			background-color:rgb(244,244,244);
+			font-weight:lighter;
+		}
+		#qq{
+			width:19px;
+			height:19px;
+			position:relative;
+			top:2px;
+		}
+		#saomiao{
+			width:330px;
+			float:right;
+			position:relative;
+			right:140px;
+			top:3px;
+			color:black;
+		}
+		#head{
+			height:160px;
+		}
+		#head-1{
+			height:120px;
+		}   
+		#head-2{
+			height:40px;
+		}
+		#e{
+			float:left;
+			position:relative;
+			left:120px;
+			top:18px;
+		}
+		#form-1{
+			float:left;
+			width:400px;
+			height:30px;
+			border:2px solid rgb(248,56,56);
+			color:rgb(222,222,222);
+		}
+		#sousuo{
+			float:left;
+			width:80px;
+			height:34px;
+			background-color:rgb(245,56,56);
+		}
+		#dasousuo{
+			float:left;
+			width:810px;
+			height:34px;
+			position:relative;
+			left:240px;
+			top:45px;
+		}
+		#sousuo-1{
+			position:relative;
+			top:5px;
+			left:20px;
+			color:rgb(255,255,255);
+			font-weight:bolder;
+		}
+		#sousuo-2{
+			float:right;
+			width:140px;
+			height:30px;
+			position:relative;
+			top:1px;
+			background-color:rgb(244,244,244);
+		}
+		#gouwuche{
+			position:relative;
+			top:6px;
+			left:10px;
+			width:15px;
+			height:15px;
+		}
+		#gouwu:{
+			float:right;
+			width:15px;
+		}
+		#gouwu-1{
+			width:100px;
+			position:relative;
+			bottom:18px;
+			left:30px;
+			color:black;
+		}
+		#gouwu-2{
+			color:rgb(248,56,56);
+		}
+		#head-2{
+			height:40px;
+			border-width:0px 0px 5px 0px;
+			border-color:rgb(248,56,56);
+			border-style:solid;
+			color:black;
+		}
+		.head-2-1{
+			width:100px;
+			height:36px;
+			float:left;
+			position:relative;
+			left:160px;
+		}
+		.head-2-2{
+			position:relative;
+			top:10px;
+			text-align:center;
+			color:black;
+		}
+		.head-2-1:link{	background-color:rgb(255,255,255);	}
+		.head-2-1:hover{background-color:rgb(245,56,56);color:rgb(255,255,255);		}
+		.head-2-2:hover{color:rgb(245,56,56);color:rgb(255,255,255);		}
+		#body{
+			height:660px;
+			background-color:rgb(244,244,244);
+		}
+		#body-1{
+			float:left;
+			height:660px;
+			width:140px;
+		}
+		#body-2{
+			float:left;
+			height:60px;
+			width:1200px;
+			color:black;
+		}
+
+		#body-3{
+			float:left;
+			height:586px;
+			width:220px;
+		}
+		#body-2-1{
+			color:black;
+			position:relative;
+			top:15px;
+		}
+		#body-3-1{
+			height:40px;
+		}
+		#body-3-2{
+			height:534px;
+			position:relative;
+			top:10px;
+		}
+		.body-3-0{
+			width:220px;
+			background-color:rgb(255,255,255);
+		}
+		#liebiao-1{
+			width:15px;
+			height:15px;
+		}
+		#body-3-1-1{
+			position:relative;
+			top:10px;
+			left:50px;
+		}
+		#liebiao-1{
+			position:relative;
+			top:1px;
+			right:30px;
+		}
+		#body-3-1-1:hover{color:rgb(245,56,56);}
+		#xiao-1-1:hover{color:rgb(245,56,56);}
+		#xiao-2-1:hover{color:rgb(245,56,56);}
+		.xiao-0{
+			width:150px;
+			height:45px;
+		}
+		.xiao-4{		
+			background-color:rgb(255,255,255);	
+			position:relative;
+			top:15px;
+			left:60px;
+		}
+		.bage{
+			border:2px solid rgb(244,244,244);
+			float:left;
+			width:190px;
+			height:240px;
+			margin-top:25px;
+			margin-left:10px;
+		}
+		#lajiao{
+			position:relative;
+			left:30px;
+			top:10px;
+		}
+		#apple{
+			position:relative;
+			left:20px;
+			top:10px;
+		}
+		#pijiu{
+			position:relative;
+			left:50px;
+			top:5px;
+		}
+		#huasheng{
+			position:relative;
+			left:5px;
+			top:10px;
+		}
+		#body-4{
+			float:left;
+			height:578px;
+			width:860px;
+			background-color:rgb(255,255,255);
+			margin:10px;			
+		}
+		.body-4-0{
+			position:relative;
+			top:18px;
+			left:15px;
+			height:45px;
+			width:160px;
+		}
+		.body-4-1{
+			text-align:center;
+			color:rgb(222,222,214);
+		}
+		.body-4-2{
+			text-align:center;
+		}
+		.bage:hover{color:rgb(245,45,56);}
+		.bottom-1-1{
+			width:250px;
+			height:150px;
+			float:left;
+			position:relative;
+			left:220px;
+			margin:5px;
+		}
+		.bottom-1-2{
+			line-height:1.8em;
+		}
+		.bottom:hover{color:rgb(245,56,56);}
+		.bottom-1-2>p:hover{color:rgb(245,56,56);}
+		.bottom-1-2>p{
+			color:rgb(255,255,255);
+		}
+		#bottom{
+			height:250px;
+			background-color:rgb(46,46,46);
+		}
+		.bottom-1-2-1{
+			font-weight:700;
+			line-height:2.4em;
+			margin:15px;
+		}
+		#bottom-2{
+			float:left;
+			height:100px;
+			width:800px;
+			position:relative;
+			left:330px;
+		}
+		.bottom-2-1{
+			color:rgb(86,86,86);
+			text-align:center;
+			color:rgb(86,86,86);
+		}
+		.bottom-2-1-1{
+			color:rgb(86,86,86);
+		}
+    </style>
+</head>
+<body>
+	<div id="top">
+		<a href="#">
+			<p id="shoucang" class="tiao">我的收藏&nbsp;&nbsp;&nbsp;E族手机之家&nbsp;&nbsp;<img id="qq" src="QQ.png" alt=""/>&nbsp;&nbsp;328203328</p>
+		</a>
+		<a href="#">
+			<p id="saomiao" class="tiao">扫描加入&nbsp;&nbsp;&nbsp;欢迎来到E族之家，请登录&nbsp;|&nbsp;注册</p>
+		</a>
+	</div>
+	<div id="head">
+		<div id="head-1">
+			<a href="#">
+			<img id="e" src="e族之家.png" alt="">
+			</a>
+				<div id="dasousuo">
+					<form>
+						<input  id="form-1" type = "text" name = "name1" value = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;请输入关键词！" />
+					</form>
+					<a href="#" >
+						<span id="sousuo">
+							<p id="sousuo-1">搜索</p>
+						</span>
+					</a>
+					<div id="sousuo-2"> 
+						<a href="#">
+							<img id="gouwuche" src="购物车.png" alt="">
+							<div id="gouwu-1">
+								<span class="gouwu">购物车(<span id="gouwu-2">0</span>)件</span>
+							</div>
+						</a>
+					</div> 
+				</div>
+		</div>
+		<div id="head-2">
+			<a href="#" class="head-2-3"><div class="head-2-1"><p class="head-2-2">首页</p></div></a>
+			<a href="#" class="head-2-3"><div class="head-2-1"><p class="head-2-2">E族生活</p></div></a>
+			<a href="#" class="head-2-3"><div class="head-2-1"><p class="head-2-2">E族服务</p></div></a>
+			<a href="#" class="head-2-3"><div class="head-2-1"><p class="head-2-2">E族爱心</p></div></a>
+		</div>
+	</div>
+	<div id="body">
+		<div id="body-1"></div>
+		<div id="body-2">
+			<p id="body-2-1">当前位置：<a href="#">E族爱心</a>><a href="#">食品</a></p>
+		</div>		
+		<div id="body-3">
+			<a href="#">
+				<div id="body-3-1" class="body-3-0">
+					<p id="body-3-1-1"><img id="liebiao-1" src="列表.png "/>全部分类</p>
+				</div>
+			</a>
+			<div id="body-3-2" class="body-3-0">
+				<a href="#">
+					<div id="xiao-1" class="xiao-0">
+						<p id="xiao-1-1" class="xiao-4">>食品</p>
+					</div>
+				</a>
+				<a href="#">
+					<div id="xiao-2" class="xiao-0">
+						<p id="xiao-2-1" class="xiao-4">>生活用品</p>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div id="body-4">
+					<div class="bage"><img class="shangpin" id="lajiao" src="辣椒.png">
+						<a href="#">
+						<div class="body-4-0">
+							<p class="body-4-1">垃圾干辣椒100g</p>
+							<p class="body-4-2">$&nbsp;90.00</p>
+						</div>
+						</a>
+					</div>
+						
+					<div class="bage"><img class="shangpin" id="apple" src="苹果.png">
+						<a href="#">
+						<div class="body-4-0">
+							<p class="body-4-1">我叫做苹果3斤</p>
+							<p class="body-4-2">$&nbsp;90.00</p>
+						</div>
+						</a>
+					</div>
+					<div class="bage"><img class="shangpin" id="pijiu" src="啤酒.png">
+						<a href="#">
+						<div class="body-4-0">
+							<p class="body-4-1">我叫雪花啤酒500ml</p>
+							<p class="body-4-2">$&nbsp;90.00</p>
+						</div>
+						</a>
+					</div>
+					<div class="bage"><img class="shangpin" id="huasheng" src="花生.png">
+						<a href="#">
+						<div class="body-4-0">
+							<p class="body-4-1">没错，我叫酒鬼花生</p>
+							<p class="body-4-2">$&nbsp;90.00</p>
+						</div>
+						</a>
+					</div>
+					<div class="bage"><img class="shangpin" id="lajiao" src="辣椒.png">
+						<a href="#">
+						<div class="body-4-0">
+							<p class="body-4-1">垃圾干辣椒100g</p>
+							<p class="body-4-2">$&nbsp;90.00</p>
+						</div>
+						</a>
+					</div>
+					<div class="bage"><img class="shangpin" id="apple" src="苹果.png">
+						<a href="#">
+						<div class="body-4-0">
+							<p class="body-4-1">我叫做苹果3斤</p>
+							<p class="body-4-2">$&nbsp;90.00</p>
+						</div>
+						</a>
+					</div>
+					<div class="bage"><img class="shangpin" id="pijiu" src="啤酒.png">
+						<a href="#">
+						<div class="body-4-0">
+							<p class="body-4-1">我叫雪花啤酒500ml</p>
+							<p class="body-4-2">$&nbsp;90.00</p>
+						</div>
+						</a>
+					</div>
+					<div class="bage"><img class="shangpin" id="huasheng" src="花生.png">
+						<a href="#">
+						<div class="body-4-0">
+							<p class="body-4-1">没错，我叫酒鬼花生</p>
+							<p class="body-4-2">$&nbsp;90.00</p>
+						</div>
+						</a>
+					</div>					
+		</div>
+	</div>
+	<div id="bottom">
+		<div id="bottom-1">
+			<div class="bottom-1-1">
+				<a class="bottom-1-2" class="bottom-1-2-1" href="#"><p>新手上路</p></a>
+				<a class="bottom-1-2" href="#"><p>售后流程</p></a>
+				<a class="bottom-1-2" href="#"><p>购物流程</p></a>
+				<a class="bottom-1-2" href="#"><p>订购方式</p></a>
+			</div>
+			<div class="bottom-1-1">
+				<a class="bottom-1-2" class="bottom-1-2-1" href="#"><p>配送方式</p></a>
+				<a class="bottom-1-2" href="#"><p>货到付款区域</p></a>
+				<a class="bottom-1-2" href="#"><p>配送址符查询</p></a>
+				<a class="bottom-1-2" href="#"><p>支付方式说明</p></a>
+			</div>
+			<div class="bottom-1-1">
+				<a class="bottom-1-2" class="bottom-1-2-1" href="#"><p>购物指南</p></a>
+				<a class="bottom-1-2" href="#"><p>常见问题</p></a>
+				<a class="bottom-1-2" href="#"><p>订购流程</p></a>
+				<a class="bottom-1-2" href="#"><p>注册新会员</p></a>
+			</div>
+			<div class="bottom-1-1">
+				<a class="bottom-1-2" class="bottom-1-2-1" href="#"><p>售后原则</p></a>
+				<a class="bottom-1-2" href="#"><p>退换货原则</p></a>
+				<a class="bottom-1-2" href="#"><p>售后服务保障</p></a>
+				<a class="bottom-1-2" href="#"><p>换货流程</p></a>
+			</div>
+			<div class="bottom-1-1">
+				<a class="bottom-1-2" class="bottom-1-2-1" href="#"><p>关于我们</p></a>
+				<a class="bottom-1-2" href="#"><p>网站故障保障</p></a>
+				<a class="bottom-1-2" href="#"><p>联系我们</p></a>
+				<a class="bottom-1-2" href="#"><p>投诉与建议</p></a>
+			</div>
+		</div>
+		<div id="bottom-2">
+			<p class="bottom-2-1" ><a class="bottom-2-1-1" href="#">E族生活</a>&nbsp;|&nbsp;<a class="bottom-2-1-1" href="#">居家破坏不修复</a>&nbsp;|&nbsp;<a class="bottom-2-1-1" href="#">嘀嘀打车杀熟</a>&nbsp;|&nbsp;<a class="bottom-2-1-1" href="#">出车爆胎</a>&nbsp;|&nbsp;<a class="bottom-2-1-1" href="#">E族活动</a>&nbsp;|&nbsp;<a class="bottom-2-1-1" href="#">E族爱心</a>&nbsp;|&nbsp;<a class="bottom-2-1-1" href="#">为发烧而生</a></p>
+			<p class="bottom-2-1" >iso 9001质量体系认证此网站系E族之家版权所有，icp备案证书号：京津冀ICP备师大20190611</p>
+		</div>
+	</div>
+</body>
+</html>
+
+
